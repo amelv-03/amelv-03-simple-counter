@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 function Counter() {
   return (
-    <div>Counter</div>
-    // setInterval(function, milliseconds)
+    <div>counter Seconds</div>
+    // setInterval(counter, milliseconds)
   )
 }
 
