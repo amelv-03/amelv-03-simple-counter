@@ -1,11 +1,15 @@
 import React from 'react'
 
 
-function Counter() {
+const Counter = (props) => {
   return (
-    <div>counter Seconds</div>
-    // setInterval(counter, milliseconds)
+    <div className='w-100'>
+        <h1 className='text-center'>
+            {props.count}
+        </h1>
+    </div>
   )
 }
+
 
 export default Counter

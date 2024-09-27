@@ -6,10 +6,18 @@ import Counter from "./counter";
 
 //create your first component
 const Home = () => {
+	const [count, setCount] = useState(0);
+
+	setInterval(() => {
+		setCount(count + 1);
+		console.log(count)
+	}, 1000);
+
 	return (
-		<div className="text-center">
-			<Counter/>
+		<div>
+			<Counter count={count}/>
 		</div>
+		
 	);
 };
 
