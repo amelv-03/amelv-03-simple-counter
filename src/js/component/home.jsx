@@ -10,7 +10,7 @@ const Home = () => {
 
 	setInterval(() => {
 		setCount(count + 1);
-		console.log(count)
+		console.log(count);
 	}, 1000);
 
 	return (
